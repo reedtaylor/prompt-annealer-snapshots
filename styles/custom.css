@@ -1,0 +1,57 @@
+<style>
+
+/* Add shadow to all images */
+.shadow {    
+    border: 1px solid gray; 
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+
+div.headerfloatnote {
+    float:right; 
+    margin:20px 10px 20px 10px; 
+    width:30%; 
+    padding:20px; 
+    background: lightgoldenrodyellow; 
+    color:#555555;  
+    font-size:85%; 
+    z-index: 10; 
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+div.yellowfloatnote {
+    float:right; 
+    margin:20px 10px 10px 10px; 
+    max-width:30%; 
+    padding:20px; 
+    background: lightgoldenrodyellow; 
+    color:#555555; 
+    z-index: 10; 
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+div.imagebox{
+    float:right; 
+    width:40%; 
+    margin:15px 0px 5px 20px; 
+    padding: 2px 2px 5px 2px;
+    text-align:center; 
+    color:black;
+    background-color: lightgray; 
+    max-width:300px;
+}
+
+div.imagecenter{
+    width:60%; 
+    margin:10px auto 10px 10%; 
+    text-align:center; 
+    padding:10px 10px 15px 10px; 
+    text-align:center; 
+    background-color: rgba(0,0,0, 0.05);
+}
+
+div.prompt_specifics, span.prompt_specifics {
+    /* very light blue highlight */
+    background-color: #e6f7ff;
+}
+</style>
